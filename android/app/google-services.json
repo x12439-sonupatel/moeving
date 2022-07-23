@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "335324581998",
+    "firebase_url": "https://banded-torus-196910.firebaseio.com",
+    "project_id": "banded-torus-196910",
+    "storage_bucket": "banded-torus-196910.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:335324581998:android:0bb905311f9e9531c1d67f",
+        "android_client_info": {
+          "package_name": "com.myproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "335324581998-scdlqvhgmunr315ci7fevsfh697f8f0o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQaSZnnuwzlQ92RfFThFCDppgwdntJ_E0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "335324581998-scdlqvhgmunr315ci7fevsfh697f8f0o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:335324581998:android:83b95ebdf838a33fc1d67f",
+        "android_client_info": {
+          "package_name": "com.paymentgateway"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "335324581998-scdlqvhgmunr315ci7fevsfh697f8f0o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQaSZnnuwzlQ92RfFThFCDppgwdntJ_E0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "335324581998-scdlqvhgmunr315ci7fevsfh697f8f0o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:335324581998:android:96ca93423064ce27c1d67f",
+        "android_client_info": {
+          "package_name": "com.tac"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "335324581998-scdlqvhgmunr315ci7fevsfh697f8f0o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQaSZnnuwzlQ92RfFThFCDppgwdntJ_E0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "335324581998-scdlqvhgmunr315ci7fevsfh697f8f0o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
