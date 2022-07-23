@@ -45,6 +45,21 @@ export default (HomeScreen = ({ navigation }) => {
     setExtraData(id);
   };
 
+  const addTodo = () => {
+    return (
+      <View style={styles.buttonContainer}>
+        <TouchableOpacity
+          style={styles.button}
+          onPress={() => {
+            navigation.navigate("AddScreen", { name: "Add Screen" });
+          }}
+        >
+          <Text style={styles.buttonText}>Add Todo</Text>
+        </TouchableOpacity>
+      </View>
+    );
+  };
+  
   return (
     <View style={styles.container}>
       {isLoading ? (
@@ -53,7 +68,7 @@ export default (HomeScreen = ({ navigation }) => {
         </View>
       ) : null}
 
-      {data && data?.length ? (
+      {data && data.length ? (
         <>
           <FlatList
             data={data}
@@ -84,18 +99,11 @@ export default (HomeScreen = ({ navigation }) => {
               );
             }}
           />
-          <View style={styles.buttonContainer}>
-            <TouchableOpacity
-              style={styles.button}
-              onPress={() => {
-                navigation.navigate("AddScreen", { name: "Add Screen" });
-              }}
-            >
-              <Text style={styles.buttonText}>Add Todo</Text>
-            </TouchableOpacity>
-          </View>
+          {addTodo()}
         </>
-      ) : null}
+      ) : (
+        addTodo()
+      )}
     </View>
   );
 });
